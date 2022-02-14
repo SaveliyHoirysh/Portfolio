@@ -119,21 +119,28 @@ h3 {
     margin-top: 92px;
     max-width: 100%;
     height: 396px;
+    padding-top: 10px;
 
 }
 
 .recent-posts__top {
     display: flex;
     justify-content: space-between;
+
+}
+
+.recent-posts__link {
+    font-size: 16px;
+    color: #00A8CC;
 }
 
 .recent-posts__articles {
     display: flex;
-    
+
 }
 
 .recent-posts__article {
-   
+
     padding: 25px;
     border-radius: 4px;
     background-color: white;
@@ -142,17 +149,20 @@ h3 {
     margin-right: 5px;
 
 }
-.recent-posts__subitle{
-    font-family: 'Roboto', sans-serif; 
+
+.recent-posts__subitle {
+    font-family: 'Roboto', sans-serif;
     margin-bottom: 19px;
     font-size: 26px;
 }
-.recent-posts__info{
+
+.recent-posts__info {
     margin-bottom: 9px;
-    font-family: 'Roboto', sans-serif; 
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
 }
-.recent-posts__text{
+
+.recent-posts__text {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
 }
