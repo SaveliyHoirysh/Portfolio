@@ -117,10 +117,11 @@ h3 {
     border-radius: 2px;
 }
 
-.title-category{
+.title-category {
     font-size: 22px;
     line-height: 60px;
 }
+
 .recent-posts {
     background-color: #EDF7FA;
     margin-top: 92px;
@@ -184,31 +185,50 @@ h3 {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
 }
-.featured__works{
+
+.work {
     display: flex;
     margin-bottom: 50px;
 }
-.work__info{
+
+.work__info {
     display: flex;
     flex-direction: column;
 }
-.work__title{
+
+.work__title {
     color: #21243D;
     font-family: Roboto;
     font-size: 30px;
     margin-bottom: 16px;
 }
-.work__date-block{
-    display: flex; 
-    margin-bottom: 16px; 
+
+.work__date-block {
+    display: flex;
+    margin-bottom: 16px;
 }
-.work__date{
+
+.work__data {
+    display: flex;
     margin-right: 36px;
+    border-radius: 16px;
+    min-width: 62px;
+    height: 25px;
+    background: #142850;
+    color: white;
 }
-.work__text{
+
+.work__category {
+    color: #8695A4;
+}
+
+.work__text {
     font-size: 16px;
 }
-.work__img{
+
+.work__img {
     width: 246px;
     height: 180px;
+    margin-right: 18px;
+    border-radius: 6px;
 }
