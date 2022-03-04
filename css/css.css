@@ -189,6 +189,7 @@ h3 {
 .work {
     display: flex;
     margin-bottom: 50px;
+    border-bottom: 1px solid #E0E0E0;
 }
 
 .work__info {
@@ -216,6 +217,8 @@ h3 {
     height: 25px;
     background: #142850;
     color: white;
+    justify-content: center;
+    align-items: center;
 }
 
 .work__category {
@@ -231,4 +234,22 @@ h3 {
     height: 180px;
     margin-right: 18px;
     border-radius: 6px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icon-wrap{
+    display: flex;
+    margin-bottom: 26px;
+}
+.icon-wrap__item{
+   margin-right: 35px;
+
+}
+.img-icon{
+    width: 30px;
+   height: 30px; 
 }
