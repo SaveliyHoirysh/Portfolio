@@ -319,22 +319,24 @@ h3 {
 @media (max-width: 480px) {
     .featured__works {
         display: flex;
-        width: 95%;
+        width: 100%;
         overflow: auto;
+        
     }
 
     .work {
         flex-direction: column;
         flex: 0 0 100%;
-        margin-right: 2.5%;
+        margin-right: 18px;padding-left: 13px;
+        padding-right: 13px;
+    }
+    .work:last-child{
+        margin-right:0 ;
     }
 
     .work__img-wrap {
         max-width: 100%;
         max-height: 230px;
-        overflow: hidden;
-        flex-shrink: 0;
-        border-radius: 6px;
     }
 }
 
